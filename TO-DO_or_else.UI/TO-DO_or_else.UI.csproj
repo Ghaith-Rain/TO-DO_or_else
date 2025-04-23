@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>TO_DO_or_else.UI</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TO-DO_or_else.Data\TO-DO_or_else.Data.csproj" />
+    <ProjectReference Include="..\TO-DO_or_else.Domain\TO-DO_or_else.Domain.csproj" />
+    <ProjectReference Include="..\TO-DO_or_else.Services\TO-DO_or_else.Services.csproj" />
+  </ItemGroup>
+
+</Project>

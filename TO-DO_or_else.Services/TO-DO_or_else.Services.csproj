@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TO_DO_or_else.Services</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TO-DO_or_else.Data\TO-DO_or_else.Data.csproj" />
+    <ProjectReference Include="..\TO-DO_or_else.Domain\TO-DO_or_else.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
