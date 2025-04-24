@@ -11,7 +11,8 @@ namespace TO_DO_or_else.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Rain;Database=ProductivityAppDb;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(
+              "Server=RAIN;Database=TO_DO_or_else;User Id=sa;Password=pass;TrustServerCertificate=True;");
         }
     }
 }
